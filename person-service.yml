@@ -1,0 +1,9 @@
+server:
+    port: 9091
+spring:
+    application:
+        name: person-service
+    jpa:
+        generate-ddl: false
+        hibernate:
+            ddl-auto: none
