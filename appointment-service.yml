@@ -1,0 +1,9 @@
+server:
+    port: 9093
+spring:
+    application:
+        name: appointment-service
+    jpa:
+        generate-ddl: false
+        hibernate:
+            ddl-auto: none
