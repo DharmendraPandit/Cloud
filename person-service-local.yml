@@ -1,1 +1,14 @@
 
+server:
+    port: 9092
+spring:
+    application:
+        name: person-service-local
+    jpa:
+        generate-ddl: false
+        hibernate:
+            ddl-auto: none
+eureka:
+    client:
+        serviceUrl:
+          defaultZone: http://127.0.0.1:8761/eureka/
